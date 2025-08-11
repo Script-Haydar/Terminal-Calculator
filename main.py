@@ -77,13 +77,16 @@ def rechnen():
 
     if option == "3":
         # Mal Rechnen
-        ergibnis = int(zahl1) - int(zahl2)
+        ergibnis = int(zahl1) * int(zahl2)
         print(zahl1 + " x " + zahl2 + " = " + str(ergibnis))
         Return()
 
 
     if option == "4":
         # Geteiltdurch Rechnen
-        ergibnis = int(zahl1) - int(zahl2)
+        ergibnis = int(zahl1) / int(zahl2)
         print(zahl1 + " / " + zahl2 + " = " + str(ergibnis))
         Return()
+
+
+rechnen()
