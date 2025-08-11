@@ -21,19 +21,30 @@ print("########################")
 
 print("")
 
-wählen = input("Bitte eine Option auswählen. ")
-
-if wählen == "1":
-    PlusRechnen()
-
-
-if wählen == "2":
-    MinusRechnen()
+# Eingabe der Zahlen
+option = input("Option wählen (1-4): ")
+zahl1 = input("Erste Zahl eingeben: ")
+zahl2 = input("Zweite Zahl eingeben: ")
 
 
-if wählen == "3":
-    MalRechnen()
+if option == "1":
+    # Plus Rechnen
+    ergibnis = zahl1 + zahl2
+    print(zahl1 + "+" + zahl2 + "=" + ergibnis)
+
+if option == "2":
+    # Minus Rechnen
+    ergibnis = zahl1 - zahl2
+    print(zahl1 + "-" + zahl2 + "=" + ergibnis)
 
 
-if wählen == "4":
-    GeteiltdurchRechnen()
+if option == "3":
+    # Mal Rechnen
+    ergibnis = zahl1 * zahl2
+    print(zahl1 + "x" + zahl2 + "=" + ergibnis)
+
+
+if option == "4":
+    # Geteiltdurch Rechnen
+    ergibnis = zahl1 / zahl2
+    print(zahl1 + "/" + zahl2 + "=" + ergibnis)
