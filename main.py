@@ -34,17 +34,17 @@ if option == "1":
 
 if option == "2":
     # Minus Rechnen
-    ergibnis = zahl1 - zahl2
-    print(zahl1 + "-" + zahl2 + "=" + ergibnis)
+    ergibnis = int(zahl1) - int(zahl2)
+    print(zahl1 + "-" + zahl2 + "=" + str(ergibnis))
 
 
 if option == "3":
     # Mal Rechnen
-    ergibnis = zahl1 * zahl2
-    print(zahl1 + "x" + zahl2 + "=" + ergibnis)
+    ergibnis = int(zahl1) - int(zahl2)
+    print(zahl1 + "x" + zahl2 + "=" + str(ergibnis))
 
 
 if option == "4":
     # Geteiltdurch Rechnen
-    ergibnis = zahl1 / zahl2
-    print(zahl1 + "/" + zahl2 + "=" + ergibnis)
+    ergibnis = int(zahl1) - int(zahl2)
+    print(zahl1 + "/" + zahl2 + "=" + str(ergibnis))
